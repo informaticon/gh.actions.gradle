@@ -10,6 +10,8 @@ LABEL "com.github.actions.description"="Executes single Gradle task"
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="gray-dark"
 
+ENV GRADLE_USER_HOME=~/.gradle
+
 COPY --chown=gradle:gradle ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
