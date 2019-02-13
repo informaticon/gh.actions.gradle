@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM gradle:jdk8-slim
 
 LABEL "maintainer"="Michael Hertig <michael.hertig@informaticon.com>"
 LABEL "repository"="https://github.com/informaticon/gh.actions.gradle"

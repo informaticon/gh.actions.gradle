@@ -1,3 +1,5 @@
 #!/bin/sh
-chmod +x gradlew
-sh -c "./gradlew $*"
+
+# chmod +x gradlew
+ls -al
+sh -c "gradle $*"
