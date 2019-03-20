@@ -1,3 +1,4 @@
 #!/bin/bash
 
-gradle -S $*
+#gradle -S $*
+gradle -p /github/workspace $*
