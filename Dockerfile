@@ -1,4 +1,4 @@
-FROM gradle:jdk8
+FROM gradle:4.10-jdk8
 USER root 
 
 LABEL "maintainer"="Michael Hertig <michael.hertig@informaticon.com>"
