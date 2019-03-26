@@ -13,6 +13,6 @@ LABEL "com.github.actions.color"="gray-dark"
 
 ENV GRADLE_USER_HOME=~/.gradle
 
-#COPY --chown=gradle:gradle ./entrypoint.sh /entrypoint.sh
+COPY --chown=gradle:gradle ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
