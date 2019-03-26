@@ -1,4 +1,4 @@
-# gh.actions.gradle
+# gh.action.gradle
 Github Action to execute Gradle tasks\
 The Docker container uses `jdk-8` and Gradle `4.10`.
 
