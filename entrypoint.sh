@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "printing variables:"
-echo $ORG_GRADLE_PROJECT_mavenUsername
-echo $ORG_GRADLE_PROJECT_mavenPassword
+echo $ORG_GRADLE_PROJECT_MAVEN_USERNAME
+echo $ORG_GRADLE_PROJECT_MAVEN_PASSWORD
 
 gradle -p /github/workspace $*
